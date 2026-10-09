@@ -24,6 +24,12 @@ export default function Header() {
           home
         </Link>
         <Link
+          href="/bv-pl-oz-26"
+          className="text-sm tracking-wider text-accent hover:text-hover transition-colors"
+        >
+          bv.pl.oz.26
+        </Link>
+        <Link
           href="/create-001"
           className="text-sm tracking-wider text-accent hover:text-hover transition-colors"
         >
