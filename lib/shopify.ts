@@ -33,7 +33,7 @@ async function shopifyFetch<T>({
 export async function getAllProducts(): Promise<ShopifyProduct[]> {
   const query = `
     query GetAllProducts {
-      products(first: 100) {
+      products(first: 100, sortKey: CREATED_AT, reverse: true) {
         edges {
           node {
             id

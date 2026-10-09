@@ -40,10 +40,10 @@ export default async function Home() {
           {/* Hero Section */}
           <div className="text-center mb-16">
             <h1 className="text-4xl md:text-6xl font-bold tracking-wider text-white mb-4">
-              create.001
+              bv.pl.oz.26
             </h1>
             <p className="text-sm md:text-base text-gray-400 tracking-wide">
-              location / growth / observation
+              observe / create / grow
             </p>
           </div>
 
